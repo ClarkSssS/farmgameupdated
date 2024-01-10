@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend><b>How To Play</b></legend>
+                Welcome to FarmVille!<br>
+                For starters, you have a lot of options to plant inside the fields,
+                the fields are the grids where you can drag and drop the plants.
+            </fieldset>
+        </form>
+    </main>
+    
+    <div id="fields-container">
+        <!-- Add 10 fields for dragging and dropping -->
+        <div class="field" id="field1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="field" id="field10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div id="crops-container">
+        <!-- Add 10 draggable crops with images -->
+        <div class="crop" id="crop1" draggable="true"></div>
+        <div class="crop" id="crop2" draggable="true"></div>
+        <div class="crop" id="crop3" draggable="true"></div>
+        <div class="crop" id="crop4" draggable="true"></div>
+        <div class="crop" id="crop5" draggable="true"></div>
+        <div class="crop" id="crop6" draggable="true"></div>
+        <div class="crop" id="crop7" draggable="true"></div>
+        <div class="crop" id="crop8" draggable="true"></div>
+        <div class="crop" id="crop9" draggable="true"></div>
+        <div class="crop" id="crop10" draggable="true"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

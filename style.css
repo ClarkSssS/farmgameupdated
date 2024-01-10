@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+}
+
+#fields-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.field {
+    width: 150px;
+    height: 100px;
+    border: 2px dashed #000;
+    position: relative;
+    margin: 10px;
+}
+
+#crops-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.crop {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    margin: 5px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#crop1 { background-image: url('eggu.png'); }
+#crop2 { background-image: url('carrots.png'); }
+#crop3 { background-image: url('eggplant.png'); }
+#crop4 { background-image: url('carrot.png'); }
+#crop5 { background-image: url('berry.png'); }
+#crop6 { background-image: url('strawberi.png'); }
+#crop7 { background-image: url('grainplant.png'); }
+#crop8 { background-image: url('cornseed.png'); }
+#crop9 { background-image: url('cabb.png'); }
+#crop10 { background-image: url('tomatu.png'); }
+
+html {
+    background-color: rgb(217, 250, 217);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    background-image: url('background.png');
+    
+}
+
+fieldset {
+    background-color: rgb(200, 255, 200);
+    border-radius: 15px;
+}
+
+.field {
+    background-color: rgb(200, 255, 200);
+}
+
+.crop {
+    background-color: rgb(200, 255, 200);
+}
